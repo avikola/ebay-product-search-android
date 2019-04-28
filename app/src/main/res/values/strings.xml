@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Product Search</string>
+    <string-array name="category_array">
+        <item>All</item>
+        <item>Art</item>
+        <item>Baby</item>
+        <item>Books</item>
+        <item>Clothing, Shoes &amp; Accessories</item>
+        <item>Computers/Tablets &amp; Networking</item>
+        <item>Health &amp; Beauty</item>
+        <item>Music</item>
+        <item>Videos Games &amp; Consoles</item>
+    </string-array>
+
+    <string-array name="first_filter">
+        <item>Default</item>
+        <item>Name</item>
+        <item>Price</item>
+        <item>Days</item>
+    </string-array>
+
+    <string-array name="second_filter">
+        <item>Ascending</item>
+        <item>Descending</item>
+    </string-array>
+
+    <string name="results_grid_view_title">Search Results</string>
+    <string name="action_settings">Settings</string>
+    <string name="pref_wishlist_items">com.example.hw9_productsearch.WISHLIST_ID_LIST</string>
+    <string name="title_activity_product_details">productDetails</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/appbar_padding_top"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_weight="1"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="@string/results_grid_view_title">
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:id="@+id/results_error"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="No Results" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_results"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:minWidth="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        />
+
+    <TextView
+        android:id="@+id/progressBar_results_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Searching Products..."
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/progressBar_results"
+        android:layout_marginTop="50dp"
+        />
+
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/showing_results_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Showing results for"
+        android:layout_alignTop="@id/appbar"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="18sp"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/results_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@id/showing_results_text"
+        android:layout_marginTop="30dp">
+
+
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>
