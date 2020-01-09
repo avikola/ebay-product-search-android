@@ -7,7 +7,8 @@
 * Product's many details could be viewed and they could be added to a wish list.
 * Products could also be shared to social media.
 
-This application was built to work alongside my web application, which had similar functionalities, and was deployed using AWS Elastic Beanstalk.\
+This application was built to work alongside my web application, which had similar functionalities, and was deployed using AWS Elastic Beanstalk.
+
 ∴ The Android application used the same Node.js/Express backend to make API calls.
 
 ## Notable Features/Implementations
