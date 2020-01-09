@@ -53,7 +53,9 @@ This application was built to work alongside my web application, which had simil
 <br/>
 <br/>
 
-***TODO: Get more screenshots of the working application***\
+<p style="color: green">TODO</p> Get more screenshots of the working application
+
+
 ***Issue: AWS Application Deployment is terminated. ∴ API calls are failing.***
 
 
