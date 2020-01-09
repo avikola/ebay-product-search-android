@@ -53,17 +53,15 @@ This application was built to work alongside my web application, which had simil
 <br/>
 <br/>
 
-<p style="color: green">TODO</p> Get more screenshots of the working application
+***TODO: Get more screenshots of the working application***
 
 
 ***Issue: AWS Application Deployment is terminated. ∴ API calls are failing.***
 
+<br/>
 
+**However,**
 
-However,
-
-
-
-### The developed application is exactly as shown in the following Youtube demo:
+#### The application was developed to exactly match the following Youtube demo:
 
 **---->** <a target=_blank href="https://www.youtube.com/watch?v=_RpseDGV6I8">eBay Product Search - Android</a>
