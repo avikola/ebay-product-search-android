@@ -56,7 +56,7 @@ This application was built to work alongside my web application, which had simil
 ***TODO: Get more screenshots of the working application***
 
 
-***Issue: AWS Application Deployment is terminated. ∴ API calls are failing.***
+### ***Issue: AWS Application Deployment is terminated. ∴ API calls are failing.***
 
 <br/>
 
