@@ -45,7 +45,7 @@ This application was built to work alongside my [web application](https://github
 
 ## Screenshots
 
-<div>
+<div align="center">
 <img src="https://github.com/avikola/ebay-product-search-android/blob/master/screenshots/search.png" alt="search" width="250"/>
 <img src="https://github.com/avikola/ebay-product-search-android/blob/master/screenshots/search_expanded.png" alt="search expanded" width="250"/>
 <img src="https://github.com/avikola/ebay-product-search-android/blob/master/screenshots/wishlist.png" alt="wishlist" width="250"/>
