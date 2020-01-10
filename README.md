@@ -7,7 +7,7 @@
 * Product's many details could be viewed and they could be added to a wish list.
 * Products could also be shared to social media.
 
-This application was built to work alongside my web application, which had similar functionalities, and was deployed using AWS Elastic Beanstalk.
+This application was built to work alongside my [web application](https://github.com/avikola/ebay-product-search-web), which had similar functionalities, and was deployed using AWS Elastic Beanstalk.
 
 ∴ The Android application used the same Node.js/Express backend to make API calls.
 
@@ -31,7 +31,7 @@ This application was built to work alongside my web application, which had simil
 
 ### > Link/Browser Navigation
 
-### > CircularScoreView Library Used for Feedback Display - [Repo Link](https://github.com/wssholmes/CircularScore)
+### > CircularScoreView Library Used for Popularity Display - [Repo Link](https://github.com/wssholmes/CircularScore)
 
 ### > [Google Custom Search JSON API](https://developers.google.com/custom-search/v1/overview) for Product Related Images
 
@@ -45,10 +45,10 @@ This application was built to work alongside my web application, which had simil
 
 ## Screenshots
 
-<div style="display:flex, flex-direction: row">
-<img style="margin-right: 40px" src="https://github.com/avikola/ebay-product-search-android/blob/master/screenshots/search.png" alt="search" width="200"/>
-<img style="margin-right: 40px" src="https://github.com/avikola/ebay-product-search-android/blob/master/screenshots/search_expanded.png" alt="search expanded" width="200"/>
-<img style="margin-right: 40px" src="https://github.com/avikola/ebay-product-search-android/blob/master/screenshots/wishlist.png" alt="wishlist" width="200"/>
+<div>
+<img src="https://github.com/avikola/ebay-product-search-android/blob/master/screenshots/search.png" alt="search" width="250"/>
+<img src="https://github.com/avikola/ebay-product-search-android/blob/master/screenshots/search_expanded.png" alt="search expanded" width="250"/>
+<img src="https://github.com/avikola/ebay-product-search-android/blob/master/screenshots/wishlist.png" alt="wishlist" width="250"/>
 </div>
 
 <br/>
